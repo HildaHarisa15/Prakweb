@@ -1,0 +1,171 @@
+body {
+  font-family: "Avenir Next";
+  background-color: #a2836e;
+}
+
+li a:link, li a:visited{
+  color: #f0f0f0;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover, li a:active {
+  color: black;
+}
+
+li{
+  list-style: none;
+}
+
+.header {
+  background-color: #674d3c;
+  color: #f0f0f0;
+  height: 50px;
+}
+
+.header-list li {
+  float: left;
+  font-size: 20px;
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+.main {
+  padding: 100px 80px;
+  background-image: url("image/tugu.jpg");
+  background-size: cover;
+  height: 120px;
+}
+
+.container h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.container a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.container span {
+  color:#f0f0f0;
+}
+
+.lesson-wrapper {
+  height: 400px;
+  padding-bottom: 80px;
+  background-color: #a2836e;
+  text-align: center;
+}
+
+.lesson-wrapper h2{
+  font-weight: normal;
+  text-align: center;
+}
+
+.lesson-wrapper p {
+  font-weight: normal;
+  text-align: justify;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+.location-image img {
+  width: 100%;
+  height: auto;
+}
+
+.location-image {
+  line-height: 0;
+}
+
+.location-listing {
+  position: relative;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #f0f0f0;
+}
+
+.heading h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #c1502e;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.message-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #a2836e;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #a2836e;
+  cursor: pointer;
+}
+
+.message {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.lesson-icon img {
+  width: 120px;
+  height: 120px;
+  float: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer p {
+  color: #f0f0f0;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #674d3c;
+  height: max-content;
+
+}
+
+.foto .gal img{
+  width: 300px;
+  height: 250px;
+}
